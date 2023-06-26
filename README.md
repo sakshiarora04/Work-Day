@@ -4,7 +4,7 @@
 
 The Work Day Schedular to plan day to day activities. It allows a user to save events for each hour of a typical working day and increases the efficency for busy days. It helps in tracking past, present and future events. As grey indicates past, red indicates present and green indicates future. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+
 
 ## User Story
 
@@ -42,3 +42,24 @@ The following animation demonstrates the application functionality:
 
 ## URL of deployed application
 https://sakshiarora04.github.io/Work-Day
+
+## Usage
+
+- This workday schedule shows working hours of the day 9AM - 5PM.
+- Current time and date is displayed on the header of the page. Header of the page also contains clear all button to clear all fields at once.
+- You can enter events in corresponding time blocks to remind you important events and there is save button where user can store in local storage. 
+- Each saved time blocks stays there upon refresh and can be edited later when needed.
+- Each time block is color coded to indicate whether it occurs in the past(gray), present(red), or future(green).
+- This calendar is desktop and mobile compatible.
+
+## Installation
+
+Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub
+
+## Built with
+
+- HTML & CSS
+- Day.js 
+- jQuery: jQuery
+- Visual Studio Code: Website
+- Google fonts
